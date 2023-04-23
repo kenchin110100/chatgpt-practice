@@ -10,6 +10,10 @@ packages = [{include = "chatgpt_practice"}]
 python = "^3.9"
 openai = "^0.27.1"
 python-dotenv = "^1.0.0"
+langchain = "^0.0.147"
+google-search-results = "^2.4.2"
+chromadb = "^0.3.21"
+tiktoken = "^0.3.3"
 
 
 [tool.poetry.group.dev.dependencies]
