@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "chatgpt-practice"
+version = "0.1.0"
+description = ""
+authors = ["kenchin110100 <11845307+kenchin110100@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "chatgpt_practice"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+openai = "^0.27.1"
+python-dotenv = "^1.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
