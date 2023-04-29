@@ -17,6 +17,7 @@ tiktoken = "^0.3.3"
 qdrant-client = "^1.1.6"
 html2text = "^2020.1.16"
 llama-index = "^0.5.27"
+pinecone-client = "^2.2.1"
 
 
 [tool.poetry.group.dev.dependencies]
